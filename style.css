@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto";
+    font-size: 28px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr minmax(500px, 30%);
+    height: 100vh;
+}
+
+
+
+.left {
+    display: grid;
+    place-items: center;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    color: #555;
+    background-color: #eee;
+    padding-top: 5em;
+}
+
+.right strong {
+    text-align: center;
+}
+ul {
+    margin-top: 20px;
+}
+
+li {
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.cart-box {
+    border-radius: 20px;
+    padding: 20px;
+    background: rgb(169, 218, 171);
+    box-shadow: rgba(0, 0, 0, 1) 10px 50px 100px -20px,
+        rgba(1, 1, 1, 0.746) 10px 30px 60px -30px;
+}
